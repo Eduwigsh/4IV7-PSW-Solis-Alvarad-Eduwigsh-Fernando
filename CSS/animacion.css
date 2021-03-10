@@ -76,7 +76,7 @@ box-sizing: border-box;
     color: white;
     text-align: center;
     height: 200px;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     animation-name: animacion_test;
