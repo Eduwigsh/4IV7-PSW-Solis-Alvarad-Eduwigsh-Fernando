@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    background-color: #485696;
+}
+.foto img{
+    height: 13rem;
+    width: 18rem;   
+    margin-top: 25%;
+}
+.foto{
+    display: inline-block;
+    background-color: #F9C784;
+    position: absolute;
+    margin-left: 1rem;
+    padding: 5px;
+    margin-top: 1%;
+    height: 49%;
+    width: 29.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.datos-personales{
+display: inline-block;
+    background-color: #F9C784;
+    position: absolute;
+    padding: 5px;
+    margin-top: 30rem;
+    height: 45%;
+    margin-bottom: 30rem;
+    margin-left: 1rem;
+}
+.formacion-academica{
+    position: absolute;
+    background-color: #FC7A1E;
+    font-size: 35px;
+    margin-left: 32.5rem;
+    width: 75%;
+    margin-top: 1%;
+    height:41% ;
+}
+.formacion-academica div{
+
+display: inline-block;
+position: absolute;
+ margin-left:70%;
+margin-top: -18rem;
+}
+.formacion-academica h1{
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+    background-color: #E7E7E7;
+    margin-left: .78%;
+    width: 98.78%;
+    height: 4%;
+    margin-top: 44%;
+}
