@@ -1,7 +1,7 @@
-body{
+*{
     padding: 0;
     margin: 0;
-    font-size: 15px;
+
 }
 body{
 
@@ -18,8 +18,8 @@ body{
     position: absolute;
     margin-left: 1rem;
     padding: 5px;
-    margin-top: 1%;
-    height: 49%;
+    margin-top: 2rem;
+    height: 50rem;
     width: 29.5rem;
     align-items: center;
     text-align: center;
@@ -31,7 +31,7 @@ display: inline-block;
     position: absolute;
     padding: 5px;
     margin-top: 30rem;
-    height: 45%;
+    height: 25rem;
     margin-bottom: 30rem;
     margin-left: 1rem;
 }
@@ -40,15 +40,15 @@ display: inline-block;
     background-color: #FC7A1E;
     font-size: 35px;
     margin-left: 32.5rem;
-    width: 75%;
-    margin-top: 1%;
-    height:41% ;
+    width: 95rem;
+    margin-top: 1rem;
+    height: 25rem ;
 }
 .formacion-academica div{
 
 display: inline-block;
 position: absolute;
- margin-left:70%;
+ margin-left:  65rem;;
 margin-top: -18rem;
 }
 .formacion-academica h1{
@@ -59,8 +59,8 @@ footer{
     position: absolute;
     text-align: center;
     background-color: #E7E7E7;
-    margin-left: .78%;
-    width: 98.78%;
-    height: 4%;
-    margin-top: 44%;
+    margin-left: .78rem;
+    width: 126.5rem;
+    height: 4rem;
+    margin-top: 55rem;
 }
