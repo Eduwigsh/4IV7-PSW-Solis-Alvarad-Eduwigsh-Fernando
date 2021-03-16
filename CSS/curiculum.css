@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    
+  
 }
 body{
 
@@ -37,6 +37,7 @@ display: inline-block;
     margin-left: 1rem;
 }
 .formacion-academica{
+    text-transform: capitalize; 
     position: absolute;
     background-color: #FC7A1E;
     font-size: 110%;
@@ -46,6 +47,7 @@ display: inline-block;
     height: 55% ;
 }
 .cursos{
+    text-transform: capitalize; 
 text-align: center;
 display: inline-block;
 position: absolute;
@@ -57,15 +59,18 @@ margin-top: 6rem
     text-align: center;
 }
 .secundaria{
+    text-transform: capitalize; 
     display: inline-block;
     position: absolute;
 }
 .preparatoria{
+    text-transform: capitalize; 
     display: inline-block;
     position: absolute;
     margin-left: 30rem;
 }
 .pasatiempos{
+    text-transform: capitalize; 
     background-color: #F24C00;
     margin-left: 38%;
     margin-top: 23rem;
@@ -79,6 +84,7 @@ margin-top: 6rem
     font-size: 1.3rem;
 }
 .habilidades{
+    text-transform: capitalize; 
     background-color: #F24C00;
     margin-left: 65%;
     margin-top: -12.57rem;
@@ -92,6 +98,7 @@ margin-top: 6rem
     font-size: 1.3rem;
 }
 footer{
+    text-transform: capitalize; 
     position: absolute;
     text-align: center;
     background-color: #E7E7E7;
