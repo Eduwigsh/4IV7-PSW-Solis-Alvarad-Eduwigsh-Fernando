@@ -10,7 +10,7 @@ body{
 .foto img{
     height: 13rem;
     width: 18rem;   
-    margin-top: 25%;
+    margin-top: 10rem;
 }
 .foto{
     display: inline-block;
@@ -61,6 +61,6 @@ footer{
     background-color: #E7E7E7;
     margin-left: .78rem;
     width: 126.5rem;
-    height: 4rem;
+    height: 3rem;
     margin-top: 55rem;
 }
