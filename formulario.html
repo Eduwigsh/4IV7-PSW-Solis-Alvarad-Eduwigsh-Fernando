@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script language ="JavaScript" type="text/JavaScript"
+    src="./JS/validarfomulario.js"></script>
+</head>
+<body>
+    <form  method="GET" name="formulario" action="fomrmulario.html"
+    onsubmit="return validar(this)">
+
+        Nommbre:
+        <br>
+        <input type="text" name="nombre" size="2" >
+        <br>
+        Edad:
+        <br>
+        <input type="text" name="edad" size="2">
+        <br>
+        Email:
+        <br>
+        <input type="text" name="email" size="2">
+        <br>
+        <input type="submit" value="Enviar Datos" name="enviar">
+        <br>
+        <input  type="reset" value=" borrar" name="borrar">
+    </form>
+    
+</body>
+</html>
