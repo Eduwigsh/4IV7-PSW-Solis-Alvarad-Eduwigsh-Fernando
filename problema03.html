@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 3</title>
+    <link rel="stylesheet" href="./CSS/problemas.css">
+    <script src="JS/problema03.js" ></script>
+</head>
+<body>
+    <p>
+        Una tienda ofrece un descuento del 15 % sobre el total de la compra y un cliente
+                desea saber cuánto deberá pagar finalmente por su compra
+    </p>
+    <div class="info">
+        <form method="post" name="formulario"  style="text-align:justify" ;>
+            <table>
+                <tr>
+                    <td class="td_up"> total a pagar </td>
+                    <td class="td_down">  <input type="text" name="pago" onkeypress="return validarn(event)">  </td>
+                </tr>
+                    <tr>
+                        <td class="td_up">pago con descuento </td>
+                        <td class="td_down">     <input type="text" name="descuento" id="cantidad" readonly="readonly" class="input_text"> </td>
+                    </tr>
+                    <tr>
+                        <td class="td_up"></td>
+                        <td class="td_down">
+                            <input type="button" value="aplicar descuento" name="enviar" onclick="dinero()"> 
+                            <input type="button" value="Borrar" name="reset" onclick="borrar()">
+                        </td>
+                    </tr>
+            </table>    
+        </form>
+    </div>
+    <footer>
+        <a class="siguiente" href="problema04.html" >problema 4</a> 
+        <a class="atras" href="problema02.html" >problema 2</a> 
+    </footer>
+</body>
+</html>

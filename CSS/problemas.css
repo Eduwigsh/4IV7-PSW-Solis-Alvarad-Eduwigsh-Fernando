@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white; 
+    background-color:rgb(61, 4, 118) ;
+}
+
+p{
+    text-align: center;
+    background-color: rgb(134, 78, 141);
+    margin-top: 0.7%;
+    padding: 1%;
+    color: black;
+}
+.info form{
+    margin-top: 0.5rem;
+    margin-left: 30%;
+}
+.td_up{
+    border-style: solid;
+border-color: rgba(80, 80, 80, 0.46);
+ border-width: 50;
+}
+.td_down{
+    border-style: solid;
+border-color: rgba(80, 80, 80, 0.46);
+ border-width: 50;
+}
+
+        
+.siguiente{
+margin-left: 80%;
+}
+.atras{
+    margin-top: 10%;
+}

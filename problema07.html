@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 7</title>
+    <link rel="stylesheet" href="./CSS/problemas.css">
+    <script src="JS/problema07.js" ></script>
+</head>
+<body>
+    <p>
+        Leer dos números: si son iguales, que los multiplique; si el primero es 
+        mayor que el segundo, que los reste y, si no, que los sume
+    </p>
+    <div class="info">
+        <form method="post" name="formulario"  style="text-align:justify" ;>
+            <table>
+                <tr>
+                    <td class="td_up"> numero1 </td>
+                    <td class="td_down">  <input type="text" name="numero1" onkeypress="return validarn(event)">  </td>
+                </tr>
+                <tr>
+                    <td class="td_up"> numero2 </td>
+                    <td class="td_down">  <input type="text" name="numero2" onkeypress="return validarn(event)">  </td>
+                </tr>
+                    <tr>
+                        <td class="td_up">resultado </td>
+                        <td class="td_down"> <input type="text" name="resultodo" id="cantidadi" readonly="readonly" class="input_text">  </td>
+                    </tr>
+                    <tr>
+                        <td class="td_up"></td>
+                        <td class="td_down">
+                            <input type="button" value="hacer operacion" name="enviar" onclick="calculo()"> 
+                            <input type="button" value="Borrar" name="reset" onclick="borrar()">
+                        </td>
+                    </tr>
+            </table>    
+        </form>
+    </div>
+    <footer>
+        <a class="siguiente" href="problema08.html" >problema 8</a> 
+        <a class="atras" href="problema06.html" >problema 6</a> 
+    </footer>
+</body>
+</html>
