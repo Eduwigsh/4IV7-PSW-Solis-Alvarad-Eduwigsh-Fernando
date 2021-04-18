@@ -86,3 +86,71 @@ function problema2(){
 
 
 //el tres queda de tarea wiiiiiiiiiii y hago el 1 wiiiiiiiiiii
+function validarn(e){
+    var teclado = (document.all)?e.keyCode:e.which;
+
+    if(teclado == 8) return true;
+
+    var patron = /[A-Z,]/;
+
+    var prueba = String.fromCharCode(teclado);
+
+    return patron.test(prueba);
+}
+function problema3(){
+    var p3_input = document.querySelector('#p3-input').value;
+    var lon;
+    var maximo = 0;
+    var aux;
+    var cubeta = [27];
+    var p3_array;
+    var res;
+    var aux_b=0;
+    var aux_array;
+    var bandera;
+    if(validarentrada(p3_input)){
+p3_array = p3_input.split(',');
+p3_array.forEach(function (palabra){
+for(var j=0;j<26;j++){
+cubeta[j] = false;
+ }
+ aux = 0;
+     lon= palabra.length;
+     for(var j=0;j<lon;j++){
+       if(!cubeta[palabra.charCodeAt(j)-65]){
+                    aux++;
+  cubeta[palabra.charCodeAt(j)-65] = true;
+                }
+            }
+  if(aux>maximo){
+     res = palabra;
+        maximo = aux;
+                aux_b = 1;
+            }
+            else{
+  bandera = true;
+ aux_array = res.split(',');
+    aux_array.forEach(function(palabra_aux){
+    if(palabra_aux==palabra){
+                        bandera = false;
+                    }
+                })
+     if(bandera == true){
+         if(aux==maximo){
+      aux_b++;
+     if(aux_b==2){   res+=" y ";
+           res+=palabra;
+                }
+      else{
+        res = palabra + " , " + res;
+           }            }
+                }
+            }
+        });
+        document.querySelector('#p3-output').textContent = 'La palabra es : ' + re + '.';
+    }
+    else{
+        document.querySelector('#p3-input').value = "";
+        document.querySelector('#p3-output').textContent = 'Esperando...';
+    }
+}
