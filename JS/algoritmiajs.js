@@ -108,7 +108,7 @@ function problema3(){
     var aux_b=0;
     var aux_array;
     var bandera;
-    if(validarentrada(p3_input)){
+    
 p3_array = p3_input.split(',');
 p3_array.forEach(function (palabra){
 for(var j=0;j<26;j++){
@@ -147,10 +147,6 @@ cubeta[j] = false;
                 }
             }
         });
-        document.querySelector('#p3-output').textContent = 'La palabra es : ' + re + '.';
-    }
-    else{
-        document.querySelector('#p3-input').value = "";
-        document.querySelector('#p3-output').textContent = 'Esperando...';
-    }
+        document.querySelector('#p3-output').textContent = 'La palabra es : ' + res + '.';
+  
 }
