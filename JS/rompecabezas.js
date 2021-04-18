@@ -30,9 +30,6 @@ function seleccionarElemento(evt){
 
     //enviar la pos del elemento
 
-    alert(currentX);
-    alert(currentY);
-
     currentPosX = parseFloat(elementoSeleccionado.getAttribute("x"));
     currentPosY = parseFloat(elementoSeleccionado.getAttribute("y"));
 
