@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <form name="formulario" method="get"
+                  action="Registro">
+                <label>Nombre:</label>
+                <input type="text" name="nombre" >
+                <br>
+                 <label>apellido paterno</label>
+                <input type="text" name="appat">
+                <br> <label> apellido materno</label>
+                <input type="text" name="appmat">
+                <br> <label>edad</label>
+                <input type="number" name="edad" min="01" max="99" 
+                       size="2" >
+                <br> <label>correo</label>
+                <input type="email" name="email">
+                <br>
+                <input type="submit" value="Enviar datos del registro">
+                <input type="reset" value="borrar datod de registro">
+            </form>
+        </div>
+        <br>
+        <div class="contenedorConsultar">
+            <form method="get" name="formularioconsultar" action="Consultar">
+                <input type="submit" value="Consular tabla general de usuarios">
+            </form>     
+        </div>
+         <br>
+        <div class="contenedorEliminar" >
+            <br>
+            <form method="post" name="formularioeliminar" action="Eliminar">
+                <label>Ingresa el ID del usuario que deseas eliminar</label>
+                <input type="text" name="ideliminar" >
+                <input type="submit" value="Eliminar Usuario" >
+            </form>
+        </div>
+        <br>
+        <div class="contenedorActualizar" >
+            <form method="get" name="modifcarInformacion" action="modificar">
+                <label>Ingrese el ID del usuario cuyos datos quiera modifcar</label>
+                <input type="text" name="idModificar" >
+                <input type="submit" name="modificar" value="modifcar datos">
+            </form>
+        </div>
+    </body>
+</html>
